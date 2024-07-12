@@ -1,0 +1,361 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1b1b1b;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  border-bottom: 2px solid #d4af37; /* Gold color */
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #d4af37; /* Gold color */
+}
+
+.nav-link {
+  color: #d4af37 !important; /* Gold color */
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+header {
+  background: linear-gradient(135deg, #1b1b1b 50%, #333 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+header .display-4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #d4af37; /* Gold color */
+}
+
+header .lead {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+section {
+  padding: 60px 0;
+}
+
+section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #d4af37; /* Gold color */
+}
+
+section p {
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+#about hr {
+  border-top: 2px solid #d4af37; /* Gold color */
+  width: 50px;
+  margin: 0;
+}
+
+.bg-light {
+  background-color: #2e2e2e !important; /* Darker background for contrast */
+}
+
+footer {
+  border: 2px solid #d4af37; /* Adjust the color and thickness as needed */
+  padding: 20px; /* Add padding to give some space inside the border */
+  margin-top: 20px; /* Add margin to separate the footer from the content above */
+  background-color: #333; /* Optional: Add a background color */
+}
+footer .container {
+  max-width: 1200px; /* Adjust to your container width */
+  margin: 0 auto; /* Center the container */
+}
+.btn-3d {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #d4af37; /* Gold color */
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #b8860b; /* Darker gold color */
+  transition: all 0.1s ease-in-out;
+}
+
+.btn-secondary.btn-3d {
+  background-color: #6c757d;
+  box-shadow: 0 5px 0 #4e555b;
+}
+
+.btn-3d:active {
+  transform: translateY(5px);
+  box-shadow: 0 0 0 #b8860b; /* Darker gold color */
+}
+
+.btn-outline-light {
+  color: #d4af37;
+  border-color: #d4af37;
+}
+
+.btn-outline-light:hover {
+  color: #fff;
+  background-color: #d4af37;
+  border-color: #d4af37;
+}
+
+.container {
+  text-align: center;
+}
+.underline {
+  position: relative;
+  display: inline-block;
+}
+.underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* ปรับตำแหน่งของเส้น คุณสามารถปรับตำแหน่งนี้ตามต้องการ */
+  width: 100%; /* ทำให้เส้นที่อยู่ใต้ข้อความยาวเท่ากับข้อความ */
+  height: 2px; /* ความสูงของเส้นที่อยู่ใต้ข้อความ */
+  background-color: yellow; /* สีของเส้นที่อยู่ใต้ข้อความ */
+  content: '';
+}
+
+.graffiti-font {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700; /* Adjust font weight as needed */
+  font-size: 36px; /* Adjust font size as needed */
+  color: gold; /* Adjust color for luxury feel */
+  text-decoration: none; /* Remove underline */
+}
+/* SKILL Interface */
+.center {
+  background: #333;
+  box-shadow: 0 10px 20px rgba(0,0,0,.5);
+  padding: 20px;
+  text-align: center; /* จัดข้อความให้อยู่กึ่งกลาง */
+  color: #fff; /* สีข้อความ */
+}
+
+.technical-bars {
+  margin-top: 20px; /* เพิ่มระยะห่างด้านบนของแถบ */
+}
+
+.technical-bars .bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.technical-bars .bar i {
+  font-size: 30px;
+  margin-right: 10px; /* ระยะห่างระหว่างไอคอนกับข้อความ */
+}
+
+.html-icon {
+  color: #e34c26; /* สีสำหรับไอคอน HTML */
+}
+
+.css-icon {
+  color: #264de4; /* สีสำหรับไอคอน CSS */
+}
+
+.js-icon {
+  color: #f0db4f; /* สีสำหรับไอคอน Javascript */
+}
+
+.python-icon {
+  color: #306998; /* สีสำหรับไอคอน Python */
+}
+
+.nodejs-icon {
+  color: #68a063; /* สีสำหรับไอคอน NodeJS */
+}
+
+.mongodb-icon {
+  color: #4db33d; /* สีสำหรับไอคอน MongoDB */
+}
+
+.firebase-icon {
+  color: #ffcb2b; /* สีสำหรับไอคอน Firebase */
+}
+
+.technical-bars .bar span {
+  flex: 1;
+  text-align: left; /* จัดข้อความให้อยู่ทางซ้าย */
+  margin-right: 10px; /* ระยะห่างระหว่างข้อความกับแถบความก้าวหน้า */
+}
+
+.technical-bars .bar .progress-line {
+  flex: 3;
+  height: 8px; /* ความสูงของแถบความก้าวหน้า */
+  background: #444; /* สีพื้นหลังของแถบความก้าวหน้า */
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.technical-bars .bar .progress-line span {
+  display: block;
+  height: 100%;
+  background: #00f0ff; /* สีของแถบความก้าวหน้า */
+  border-radius: 5px;
+  position: relative;
+  width: 0; /* ตั้งค่าเริ่มต้นให้แถบเป็น 0 */
+  transition: width 2s; /* เพิ่มการแอนิเมชัน */
+}
+
+.technical-bars .bar .percentage {
+  margin-left: 10px; /* ระยะห่างระหว่างแถบความก้าวหน้ากับเปอร์เซ็นต์ */
+  color: #fff; /* สีของเปอร์เซ็นต์ */
+}
+
+/* Project Interface */
+.heading {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.heading::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #00f0ff;
+  margin: 10px auto 0;
+}
+
+.project-card {
+  background: #1c3747;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.project-card .project-icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: red;
+}
+
+.project-card h3 {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.project-links {
+  margin-top: 20px;
+}
+
+.project-links .btn {
+  margin: 5px;
+}
+
+/* Contact me Interface */
+.heading {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.heading::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #00f0ff;
+  margin: 10px auto;
+}
+
+#contact {
+  background-color: #333;
+  color: #ecf0f1;
+}
+
+#contact p {
+  font-size: 18px;
+  margin-top: 35px;
+  text-align: left;
+}
+
+.social-icons {
+  margin-top: 30px;
+  
+
+}
+
+.social-icons .social-icon {
+  font-size: 40px;
+  margin-right: 25px;
+  color: #e8d50b;
+  transition: color 0.3s;
+}
+
+.social-icons .social-icon:hover {
+  color: #00f0ff;
+}
+
+.form-group label {
+  text-align: left;
+  display: block;
+  color: #fff; 
+}
+.form-control {
+  background-color: #555; 
+  color: #fff;
+  border: none;
+  border-radius: 4px; 
+  padding: 10px; 
+}
+
+.form-control::placeholder {
+  color: #95a5a6;
+}
+
+.btn-primary {
+  background-color: #00f0ff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1abc9c;
+}
